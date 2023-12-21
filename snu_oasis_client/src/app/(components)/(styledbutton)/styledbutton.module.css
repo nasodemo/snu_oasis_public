@@ -1,0 +1,15 @@
+.styledbutton {
+    /* background: linear-gradient(120deg, #3f8768 0%, #65d4a0 100%); */
+    background: linear-gradient(30deg, rgb(212, 250, 251), rgb(221, 244, 255), rgb(238, 244, 255));
+    padding: 0px 20px 10px 20px ;
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    min-height: '500px';
+    font-size: 10pt;
+    border-radius: 20pt;
+    box-shadow: 0pt 1pt 1pt rgb(214, 215, 215);
+    min-height: 120px;
+    margin-bottom: 5px;
+    border-color: aliceblue;
+  }

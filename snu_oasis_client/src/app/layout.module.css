@@ -1,0 +1,45 @@
+.navbar {
+    background: linear-gradient(30deg, #85dbcb,#7ccce2,#8bc9ed);
+    height:100px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    }
+
+.inlinenavbar {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    width: 100%;
+}
+.container {
+    width:100%;
+    background-color: #ebfbff;
+    }
+
+.maxwidth {
+    margin:auto;
+    max-width: 800px;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.iconWithText {
+    display: flex;
+    }
+
+    
+
+.iconWhite {
+    color: white;
+    }
+
+.iconLarge {
+    width: 40px;
+    height: 40px;
+    }
+
+.noTextDecoration {
+    text-decoration: none;
+    }

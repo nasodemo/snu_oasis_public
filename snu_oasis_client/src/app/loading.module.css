@@ -1,0 +1,22 @@
+.animation {
+    background-color: rgb(255, 255, 255);
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: 50%;
+    color: rgb(30, 141, 147);
+ 
+    margin-left: -21px;
+    margin-top: -21px;
+    border-radius: 50%;
+ 
+    animation: Rotate 2s linear infinite;
+    z-index: 100;
+ }
+  
+ @keyframes Rotate {
+   0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+ }

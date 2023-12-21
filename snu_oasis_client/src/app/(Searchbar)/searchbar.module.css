@@ -1,0 +1,57 @@
+.relativePosition {
+    position: relative;
+  }
+  
+  .searchBarForm {
+    display: flex;
+    align-items: center;
+  }
+  
+  .submitButton {
+    padding: 12px 10px 7px;
+    background-color: #92edd9;
+    color: rgb(85, 85, 85);
+    font-weight: bolder;
+    font-size: 8pt;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .search {
+    color:rgb(255, 255, 255);
+    width:17px;
+    height:17px;
+  }
+
+  .searchInput {
+    background-color: #E8E8E8;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 35px;
+    min-width: 190px;
+    height: 15px;
+  }
+  
+  .dropbox {
+    display: grid;
+    width: 190px;
+    min-height: 60px;
+    background-color: #f5f5f5;
+    border-color: black;
+    line-height: 1.5;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 110%; 
+  }
+  
+  .linkStyle {
+    font-size: 10pt;
+    text-decoration: none;
+    color: black;
+  }

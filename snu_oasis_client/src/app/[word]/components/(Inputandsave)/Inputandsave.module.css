@@ -1,0 +1,63 @@
+.buttonStyle {
+    background: none;
+    border: none;
+  }
+  
+  .iconStyle {
+    color: lightgray;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .centerItems {
+    display: grid;
+    place-items: center;
+  }
+  
+  .textareaStyle {
+    border-radius: 5pt;
+    padding: 20px 20px 13px 20px;
+    font-family: -moz-initial;
+    font-size: 9pt;
+    height: 100px;
+    width: 80%;
+    resize: none;
+  }
+  
+  .saveButtonStyle {
+    background-color: #afdbd8;
+    border-radius: 35px;
+    padding: 8px 12px;
+    border: none;
+    font-size: 9pt;
+  }
+  
+  .deleteButtonStyle {
+    background-color: lightgray;
+    border-radius: 35px;
+    padding: 8px 12px;
+    border: none;
+    font-size: 9pt;
+  }
+  
+  
+  .entryStyle {
+    position: relative;
+  }
+
+  .placesidetoside {
+    display: flex;
+    padding-left: 0;
+  }
+
+  .styledbutton{
+    width: 80%;
+    background-color: #afdbd8;
+    border-radius: 20px;
+  }
+  .deleteEntryButton {
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    cursor: pointer;
+  }

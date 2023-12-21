@@ -1,0 +1,31 @@
+.styledButton {
+    background: linear-gradient(30deg, rgb(212, 250, 251), rgb(221, 244, 255), rgb(238, 244, 255));
+    padding: 0px 20px 10px 20px ;
+    width: 90%;
+    min-height: '500px';
+    font-size: 10pt;
+    border-radius: 20pt;
+    box-shadow: 0pt 1pt 1pt rgb(214, 215, 215);
+    min-height: 120px;
+    margin-bottom: 5px;
+    border-color: aliceblue;
+  }
+  
+.x {
+  background-color: transparent;
+}
+.center{
+  display: grid;
+  justify-items: center;
+}
+.popup {
+  width: 260px;
+  height: 300px;
+  background-color: #eef6fd;
+  border-radius: 30px;
+  box-shadow:1pt 1pt 1pt 0pt #adaeaf;
+  padding: 30px;
+  border-color: aliceblue;
+  overflow: scroll;
+  }
+
