@@ -1,5 +1,5 @@
 # snu_oasis_public
-2023 학생자율연구 프로젝트 결과물 OASIS의 pubilc용 코드입니다. (담당자 김태욱(nasodeno))
+2023 학생자율연구 프로젝트 결과물 OASIS의 pubilc용 코드입니다. (담당자 김태욱(nasodemo))
 
 연구 책임자: 조민선
 
