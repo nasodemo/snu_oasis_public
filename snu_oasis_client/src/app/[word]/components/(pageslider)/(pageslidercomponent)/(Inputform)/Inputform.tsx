@@ -46,7 +46,7 @@ const InputForm: React.FC<InputFormProps> = ({ onSave }) => {
   };
 
   const handleSaveClick = async () => {
-    console.log('new question을 위한 handleSaveClick 돌아가는중')
+    // console.log('new question을 위한 handleSaveClick 돌아가는중')
     try {
       const path = window.location.pathname.split('/');
       const word = decodeURI(path[1]);
@@ -54,10 +54,9 @@ const InputForm: React.FC<InputFormProps> = ({ onSave }) => {
       const instance = '/questionRoutes/makequestions';
       let tags = [selectedSight1, selectedSight2, selectedSight3].filter((t) => t !== '');
       let tag = tags.join('/');
-      console.log('inputValue :', inputValue, 'tag :', tag );
+      // console.log('inputValue :', inputValue, 'tag :', tag );
       await axios.post(server + instance, { word, question: inputValue, tag: tag });
-      // setquestions(response.data.questions);
-      console.log(inputVisible, ': handleSaveClick 다 돌아감');
+      // console.log(inputVisible, ': handleSaveClick 다 돌아감');
       setInputVisible(false);
       setInputValue('');
       setSelectedSight1(''); 
@@ -81,7 +80,8 @@ const InputForm: React.FC<InputFormProps> = ({ onSave }) => {
   return (
     <div >
       <div>
-      {/* {inputHistory.map((entry) => (
+      {/* For local development
+      {inputHistory.map((entry) => (
         <div className={styles.entryStyle} key={entry.id}>
           <StyledButton>
             <h5>{`${entry.sight1} / ${entry.sight2} / ${entry.sight3}`}</h5>

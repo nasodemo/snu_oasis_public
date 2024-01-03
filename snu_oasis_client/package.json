@@ -1,35 +1,35 @@
 {
-    "name": "front",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "dev": "next dev",
-        "build:dev": "env-cmd -f .env.development next build",
-        "build:production": "env-cmd -f .env.production next build",
-        "start:dev": "env-cmd -f .env.development next start",
-        "start:production": "env-cmd -f .env.production next start",
-        "lint": "next lint"
-    },
-    "dependencies": {
-        "@types/node": "20.6.2",
-        "@types/react": "18.2.22",
-        "@types/react-dom": "18.2.7",
-        "@types/react-slick": "^0.23.10",
-        "axios": "^1.5.1",
-        "cross-env": "^7.0.3",
-        "dotenv": "^16.3.1",
-        "env-cmd": "^10.1.0",
-        "eslint": "8.49.0",
-        "eslint-config-next": "13.4.19",
-        "next": "^13.5.4",
-        "react": "18.2.0",
-        "react-dom": "18.2.0",
-        "react-icons": "^4.11.0",
-        "react-slick": "^0.29.0",
-        "slick-carousel": "^1.8.1",
-        "typescript": "5.2.2"
-    },
-    "devDependencies": {
-        "@types/css-modules": "^1.0.3"
-    }
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "env-cmd -f ../../.env.development next dev",
+    "build:dev": "env-cmd -f ../../.env.development next build",
+    "build:production": "env-cmd -f ../../.env.production next build",
+    "start:dev": "env-cmd -f ../../.env.development next start",
+    "start:production": "env-cmd -f ../../.env.production next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.6.2",
+    "@types/react": "18.2.22",
+    "@types/react-dom": "18.2.7",
+    "@types/react-slick": "^0.23.10",
+    "axios": "^1.5.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "env-cmd": "^10.1.0",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "next": "^13.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/css-modules": "^1.0.3"
+  }
 }
