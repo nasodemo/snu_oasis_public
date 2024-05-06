@@ -6,7 +6,7 @@
 
 snu-oasis는 '질문 역량 증진 및 협력학습을 위한 중등 융합 교육 AI 플랫폼 개발 연구의 일환으로 제작되었습니다.
 
-사용된 GPT presona는 src/routers 의 파일들을 참고해 주세요.
+사용된 GPT persona는 src/routers 의 파일들을 참고해 주세요.
 
 예시) 다음의 코드에서 messages의 "content"에 해당하는 내용이 GPT presona 입니다.
 async function makeAnswer(word: string, question: any) {
