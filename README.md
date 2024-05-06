@@ -14,6 +14,6 @@
 
 연구 참여자: 김은빛, 김태욱
 
-프론트앤드(Next.js): 김은빛, 김태욱
+snu_oasis_client(Next.js): 김은빛, 김태욱
 
-백앤드(express): 김태욱
+snu_oasis_server(express): 김태욱
