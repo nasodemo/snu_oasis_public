@@ -1,6 +1,9 @@
 # snu_oasis_public
 2023 학생자율연구 프로젝트 결과물 OASIS의 pubilc용 코드입니다. (담당자 김태욱(nasodemo))
 
+
+사용된 ChatGPT Prompt는 snu_oasis_server/src/router 의 각 파일에서 확인하실 수 있습니다.
+
 ### Appendix Contents
 - <부록 1> 면담지
 - <부록 2> 융합적 사고 검사지
